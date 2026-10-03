@@ -206,38 +206,35 @@ The custom webpage was successfully accessed through the EC2 public IPv4 address
 
 The following screenshots provide visual proof of the AWS configuration, Apache deployment, Security Group rules, and testing results.
 
-#### Screenshot 1 — EC2 Instance and Apache Service
+#### Screenshot 1 — EC2 Instance status 
 
 ![EC2 instance and Apache service](screenshots/OP-1.PNG)
 
 Shows the running EC2 instance `Assignment5-Q2-WebServer` and Apache service status.
 
-#### Screenshot 2 — Apache Web Server
+#### Screenshot 2 — Apache Web Server status 
 
 ![Apache web server](screenshots/OP-2.PNG)
 
-Shows the Apache2 default page, confirming that the Apache web server is reachable.
 
-#### Screenshot 3 — Custom Webpage
+
+#### Screenshot 3 — Apache2 Default Web Server Page
 
 ![Custom webpage](screenshots/OP-3.PNG)
 
-Shows the custom webpage successfully served from the EC2 instance.
 
-#### Screenshot 4 — Security Group Inbound Rules
-
+#### Screenshot 4 — Custom Webpage Successfully Deployed
 ![Security Group inbound rules](screenshots/OP-4.PNG)
 
 Shows the configured inbound rules for SSH (22), HTTPS (443), and HTTP (80).
 
-#### Screenshot 5 — Apache and HTTP Testing
+#### Screenshot 5 — EC2 Security Group Inbound Rules
 
 ![Apache and HTTP testing](screenshots/OP-5.PNG)
 
 Shows Apache service verification, an HTTP `200 OK` response from `curl`, and Apache listening on port 80.
 
-#### Screenshot 6 — Additional Project Evidence
-
+#### Screenshot 6 — EC2 Instance Configuration and Public IP
 ![Additional project evidence](screenshots/OP-6.PNG)
 
 Additional evidence captured during the project.

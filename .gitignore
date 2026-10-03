@@ -1,0 +1,6 @@
+# Local/editor files
+.vscode/
+.idea/
+*.pem
+*.ppk
+.env

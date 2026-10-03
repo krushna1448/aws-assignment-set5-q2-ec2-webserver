@@ -204,14 +204,43 @@ The custom webpage was successfully accessed through the EC2 public IPv4 address
 
 ### 10. Evidence Screenshots
 
-The `screenshots/` directory contains the captured evidence:
+The following screenshots provide visual proof of the AWS configuration, Apache deployment, Security Group rules, and testing results.
 
-1. `OP-1.PNG` — EC2 instance and Apache service evidence
-2. `OP-2.PNG` — Apache/default web server page
-3. `OP-3.PNG` — Custom webpage
-4. `OP-4.PNG` — Security Group inbound rules
-5. `OP-5.PNG` — Apache service, HTTP response, and port 80 verification
-6. `OP-6.PNG` — Additional project evidence
+#### Screenshot 1 — EC2 Instance and Apache Service
+
+![EC2 instance and Apache service](screenshots/OP-1.PNG)
+
+Shows the running EC2 instance `Assignment5-Q2-WebServer` and Apache service status.
+
+#### Screenshot 2 — Apache Web Server
+
+![Apache web server](screenshots/OP-2.PNG)
+
+Shows the Apache2 default page, confirming that the Apache web server is reachable.
+
+#### Screenshot 3 — Custom Webpage
+
+![Custom webpage](screenshots/OP-3.PNG)
+
+Shows the custom webpage successfully served from the EC2 instance.
+
+#### Screenshot 4 — Security Group Inbound Rules
+
+![Security Group inbound rules](screenshots/OP-4.PNG)
+
+Shows the configured inbound rules for SSH (22), HTTPS (443), and HTTP (80).
+
+#### Screenshot 5 — Apache and HTTP Testing
+
+![Apache and HTTP testing](screenshots/OP-5.PNG)
+
+Shows Apache service verification, an HTTP `200 OK` response from `curl`, and Apache listening on port 80.
+
+#### Screenshot 6 — Additional Project Evidence
+
+![Additional project evidence](screenshots/OP-6.PNG)
+
+Additional evidence captured during the project.
 
 ### 11. Key Commands Used
 

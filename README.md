@@ -226,15 +226,12 @@ Shows the running EC2 instance `Assignment5-Q2-WebServer` and Apache service sta
 #### Screenshot 4 — Custom Webpage Successfully Deployed
 ![Security Group inbound rules](screenshots/OP-4.PNG)
 
-Shows the configured inbound rules for SSH (22), HTTPS (443), and HTTP (80).
 
 #### Screenshot 5 — EC2 Security Group Inbound Rules
 
 ![Apache and HTTP testing](screenshots/OP-5.PNG)
 
-Shows Apache service verification, an HTTP `200 OK` response from `curl`, and Apache listening on port 80.
-
-#### Screenshot 6 — EC2 Instance Configuration and Public IP
+#### Screenshot 6 — Apache HTTP and Port 80 Verification
 ![Additional project evidence](screenshots/OP-6.PNG)
 
 Additional evidence captured during the project.
